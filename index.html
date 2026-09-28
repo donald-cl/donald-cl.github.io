@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>vibecoder — a personal tool</title>
+<meta name="description" content="vibecoder is a personal, single-user tool that lets the owner's own scripts on their own phone reach their own Google account.">
+<!-- site-verification -->
+<style>
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0 auto; padding: 2rem 1.25rem 4rem; max-width: 40rem;
+         font: 17px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         color: #1a1a1a; background: #fff; }
+  h1 { font-size: 1.8rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; }
+  p.lede { color: #444; margin-top: 0; }
+  ul { padding-left: 1.2rem; }
+  a { color: #14548c; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e3e3e3;
+           font-size: .92rem; color: #555; }
+</style>
+</head>
+<body>
+<h1>vibecoder</h1>
+<p class="lede">A personal tool. Not a public service.</p>
+
+<p><strong>vibecoder</strong> is a small set of command-line scripts that its
+owner runs on their own phone. Its only job is to let those scripts read and
+write the owner's <em>own</em> Google data — Drive, Docs, Sheets, Gmail and
+Calendar — on the owner's behalf.</p>
+
+<h2>Who can use it</h2>
+<p>Only the owner. There is no sign-up, no hosted service, no web application
+and no second user. The Google OAuth client exists so that the owner's own
+scripts can ask the owner for permission to reach the owner's own account.</p>
+
+<h2>What it does</h2>
+<ul>
+  <li>Creates and updates documents, spreadsheets and files in the owner's Google Drive.</li>
+  <li>Reads the owner's Gmail and prepares drafts for the owner to review and send.</li>
+  <li>Reads the owner's Google Calendar and creates events in it.</li>
+</ul>
+
+<h2>What it does not do</h2>
+<ul>
+  <li>It does not serve other people, and it has no other users to serve.</li>
+  <li>It does not sell, share or transfer Google user data to anyone.</li>
+  <li>It does not use Google user data for advertising, and it does not use it to
+      develop, improve or train generalised artificial-intelligence or
+      machine-learning models.</li>
+</ul>
+
+<h2>Where the data lives</h2>
+<p>OAuth tokens and credentials stay on the owner's own device, in files readable
+only by the owner's account. Nothing is uploaded to a third-party server: the
+scripts talk to Google's APIs directly.</p>
+
+<footer>
+  <a href="privacy.html">Privacy policy</a> &middot;
+  <a href="terms.html">Terms</a> &middot;
+  Contact: <a href="mailto:donaldhui@gmail.com">donaldhui@gmail.com</a>
+</footer>
+</body>
+</html>
